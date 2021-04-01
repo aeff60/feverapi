@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route('/')
 def helloworld():
-    return 'Hello world'
+    return 'Hello I am Aeff'
 
 @app.route('/iris', methods=['POST'])
 @cross_origin()
